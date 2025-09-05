@@ -1,0 +1,26 @@
+[2025-09-03T19:54:06.699+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_branch_operator.branching scheduled__2025-09-02T00:00:00+00:00 [queued]>
+[2025-09-03T19:54:06.712+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_branch_operator.branching scheduled__2025-09-02T00:00:00+00:00 [queued]>
+[2025-09-03T19:54:06.712+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-03T19:54:06.712+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-09-03T19:54:06.712+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-09-03T19:54:06.734+0200] {taskinstance.py:1309} INFO - Executing <Task(BranchPythonOperator): branching> on 2025-09-02 00:00:00+00:00
+[2025-09-03T19:54:06.741+0200] {standard_task_runner.py:55} INFO - Started process 3774 to run task
+[2025-09-03T19:54:06.748+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'example_branch_operator', 'branching', 'scheduled__2025-09-02T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', '/home/varun/miniconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py', '--cfg-path', '/tmp/tmpxaz2inv8']
+[2025-09-03T19:54:06.750+0200] {standard_task_runner.py:83} INFO - Job 2: Subtask branching
+[2025-09-03T19:54:06.833+0200] {task_command.py:389} INFO - Running <TaskInstance: example_branch_operator.branching scheduled__2025-09-02T00:00:00+00:00 [running]> on host LAPTOP-OQGSU8SC.localdomain
+[2025-09-03T19:54:06.906+0200] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_branch_operator
+AIRFLOW_CTX_TASK_ID=branching
+AIRFLOW_CTX_EXECUTION_DATE=2025-09-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-09-02T00:00:00+00:00
+[2025-09-03T19:54:06.908+0200] {python.py:177} INFO - Done. Returned value was: branch_a
+[2025-09-03T19:54:06.908+0200] {python.py:211} INFO - Branch callable return branch_a
+[2025-09-03T19:54:06.908+0200] {skipmixin.py:155} INFO - Following branch branch_a
+[2025-09-03T19:54:06.909+0200] {skipmixin.py:211} INFO - Skipping tasks ['branch_b', 'branch_d', 'branch_c']
+[2025-09-03T19:54:06.958+0200] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=example_branch_operator, task_id=branching, execution_date=20250902T000000, start_date=20250903T175406, end_date=20250903T175406
+[2025-09-03T19:54:07.000+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-09-03T19:54:07.021+0200] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

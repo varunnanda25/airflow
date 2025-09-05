@@ -6,7 +6,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 
 default_args = {
-   'owner' : 'loonycorn'
+   'owner' : 'varun25'
 }
 
 with DAG(

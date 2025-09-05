@@ -8,13 +8,23 @@ from airflow.operators.python import PythonOperator
 default_args = {
    'owner' : 'varun25'
 }
-def increment_by_2(counter):
-    print("count {counter}".format(counter=counter))
-    return counter+2
+def increment_by_2(value):
+    print("value {value}".format(value=value))
+    return value+2
 
-def multiply_by_2(counter):
-    print("count {counter}".format(counter=counter))
-    return counter*2
+def multiply_by_2(ti):
+    value=ti.xcom_pull(task_ids='increment_by_2')
+    print("value {value}".format(value=value))
+    return value*2
+
+def subtract_2(ti):
+    value=ti.xcom_pull(task_ids='multiply_by_2')
+    print("value {value}".format(value=value))
+    return value-2
+
+def print_value(ti):
+    value=ti.xcom_pull(task_ids='subtract_2')
+    print("value from xcom ti {value}".format(value=value))
 
 
 with DAG(
@@ -28,12 +38,19 @@ with DAG(
     taskA=PythonOperator(
         task_id='increment_by_2',
         python_callable=increment_by_2,
-        op_kwargs={'counter':100} # specifying argument for the function
+        op_kwargs={'value':100} # specifying argument for the function
     )
     taskB=PythonOperator(
         task_id='multiply_by_2',
         python_callable=multiply_by_2,
-        op_kwargs={'counter':10} # specifying arguments for the function
+    )
+    taskC=PythonOperator(
+        task_id='subtract_2',
+        python_callable=subtract_2,
+    )
+    taskD=PythonOperator(
+        task_id='print_value',
+        python_callable=print_value,
     )
 
-taskA>>taskB
+taskA>>taskB >>taskC>>taskD

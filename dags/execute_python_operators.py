@@ -9,25 +9,19 @@ default_args = {
    'owner' : 'varun25'
 }
 
-def taskA():
-    for i in range (1,6):
-        for j in range(i):
-            print('*', end='')
-        print()    
+def hello(name):
+    print(f'Hello {name}!'.format(name=name))
 
+def hello_with_city(name, city):
+    print(f'Hello {name}! from {city}.'.format(name=name, city=city))
 
+def increment_by_2(counter):
+    print("count{counter}".format(counter=counter))
+    return counter+2
 
-def taskB():
-    print("This is task b!")
-
-def taskC():
-    for i in range (6,0,-1):
-        for j in range(i):
-            print('*', end='')
-        print()   
-
-def taskD():
-    print("This is task c!")
+def multiply_by_2(counter):
+    print("count{counter}".format(counter=counter))
+    return counter*2
 
 
 with DAG(
@@ -39,21 +33,14 @@ with DAG(
     tags=['python', 'operators']
 ) as dag:
     taskA=PythonOperator(
-        task_id='taskA',
-        python_callable=taskA
+        task_id='hello',
+        python_callable=hello,
+        op_kwargs={'name':'Varun'} # specifying argument for the function
     )
     taskB=PythonOperator(
-        task_id='taskB',
-        python_callable=taskB
-    )
-    taskC=PythonOperator(
-        task_id='taskC',
-        python_callable=taskC
-    )
-    taskD=PythonOperator(
-        task_id='taskD',
-        python_callable=taskD
+        task_id='hello_with_city',
+        python_callable=hello_with_city,
+        op_kwargs={'name':'Varun', 'city':'Pathankot'} # specifying arguments for the function
     )
 
-taskA>>[taskB, taskC]
-taskD<<[taskB, taskC]
+taskA>>taskB

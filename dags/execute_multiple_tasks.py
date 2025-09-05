@@ -15,44 +15,44 @@ with DAG(
     default_args = default_args,
     start_date = days_ago(1),
     schedule_interval = timedelta(days=1),
-    tags= ['upstream', 'downstream']
+    tags= ['upstream', 'downstream'],
+    template_searchpath=['/home/varun/airflow/dags/bash scripts/']
+    
 ) as dag:
 
     taskA = BashOperator(
         task_id = 'taskA',
-        bash_command = '''
-            echo Task A has started!
-            for i in {1..5}
-            do
-                echo Task A printing $i
-            done
-            echo Task A has completed!
-        '''
+        bash_command = 'taskA.sh'
     )
 
     taskB = BashOperator(
         task_id = 'taskB',
-        bash_command = '''
-                echo Task B has started!
-                sleep 4
-                echo Task B has ended!'''
+        bash_command = 'taskB.sh'
     )
 
     taskC = BashOperator(
         task_id = 'taskC',
-        bash_command = '''
-                echo Task C has started!
-                sleep 10
-                echo Task C has ended!'''
+        bash_command = 'taskC.sh'
     )
 
     taskD = BashOperator(
         task_id = 'taskD',
-        bash_command='echo task D is executed!'
+        bash_command='taskD.sh'
     )
 
-taskA.set_downstream(taskB) #task b will be executed after task a
-taskA.set_downstream(taskC) #task c will be executed after task a
+    taskE = BashOperator(
+        task_id = 'taskE',
+        bash_command='taskE.sh'
+    )
+    taskF = BashOperator(
+        task_id = 'taskF',
+        bash_command='taskF.sh'
+    )
 
-taskD.set_upstream(taskB) #task d will be executed after task b 
-taskD.set_upstream(taskC) #task d will be executed after task c
+#taskA >> [taskB, taskC] #task b and task c will be executed after task a  using bit shift operators
+
+#taskD << [taskB, taskC] #task d will be executed after task c and task b using bit shift operators
+
+taskA >> taskB >> taskE
+taskA >> taskC >> taskF
+taskA >> taskD 

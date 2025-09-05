@@ -523,3 +523,444 @@
 [2025-09-05T12:30:41.931+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:30:41.931+0200] {dag.py:2705} INFO - Sync 1 DAGs
 [2025-09-05T12:30:41.949+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:30:41.949+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
 [2025-09-05T12:30:41.973+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.081 seconds
+[2025-09-05T12:31:13.249+0200] {processor.py:153} INFO - Started process (PID=54319) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:13.250+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:31:13.251+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:13.251+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:13.267+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:13.285+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:13.285+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:31:13.303+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:13.303+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:31:13.330+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:31:44.429+0200] {processor.py:153} INFO - Started process (PID=54375) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:44.431+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:31:44.432+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:44.432+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:44.449+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:31:44.466+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:44.466+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:31:44.484+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:31:44.484+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:31:44.506+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.081 seconds
+[2025-09-05T12:32:15.196+0200] {processor.py:153} INFO - Started process (PID=54432) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:15.198+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:32:15.199+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:15.199+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:15.216+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:15.233+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:15.233+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:32:15.251+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:15.250+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:32:15.271+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.078 seconds
+[2025-09-05T12:32:46.284+0200] {processor.py:153} INFO - Started process (PID=54494) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:46.286+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:32:46.287+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:46.287+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:46.303+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:32:46.320+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:46.320+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:32:46.337+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:32:46.337+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:32:46.359+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.079 seconds
+[2025-09-05T12:33:18.333+0200] {processor.py:153} INFO - Started process (PID=54551) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:18.335+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:33:18.336+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:18.336+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:18.352+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:18.372+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:18.371+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:33:18.393+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:18.393+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:33:18.418+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.088 seconds
+[2025-09-05T12:33:50.400+0200] {processor.py:153} INFO - Started process (PID=54612) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:50.402+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:33:50.403+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:50.403+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:50.420+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:33:50.440+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:50.440+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:33:50.461+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:33:50.461+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:33:50.494+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.100 seconds
+[2025-09-05T12:34:22.629+0200] {processor.py:153} INFO - Started process (PID=54668) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:22.631+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:34:22.632+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:22.632+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:22.650+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:22.675+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:22.674+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:34:22.697+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:22.697+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:34:22.722+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.096 seconds
+[2025-09-05T12:34:54.020+0200] {processor.py:153} INFO - Started process (PID=54727) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:54.022+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:34:54.023+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:54.023+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:54.041+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:34:54.064+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:54.063+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:34:54.084+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:34:54.084+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:34:54.110+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.093 seconds
+[2025-09-05T12:35:25.548+0200] {processor.py:153} INFO - Started process (PID=54782) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:25.550+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:35:25.551+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:25.551+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:25.568+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:25.585+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:25.585+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:35:25.606+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:25.606+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:35:25.635+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.091 seconds
+[2025-09-05T12:35:56.980+0200] {processor.py:153} INFO - Started process (PID=54838) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:56.984+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:35:56.985+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:56.985+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:57.002+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:35:57.022+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:57.022+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:35:57.051+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:35:57.051+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:35:57.086+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.109 seconds
+[2025-09-05T12:36:28.125+0200] {processor.py:153} INFO - Started process (PID=54897) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:28.128+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:36:28.128+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:28.128+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:28.144+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:28.162+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:28.161+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:36:28.180+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:28.180+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:36:28.207+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:36:58.978+0200] {processor.py:153} INFO - Started process (PID=54953) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:58.980+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:36:58.981+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:58.981+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:58.997+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:36:59.019+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:59.019+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:36:59.037+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:36:59.037+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:36:59.058+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.084 seconds
+[2025-09-05T12:37:30.053+0200] {processor.py:153} INFO - Started process (PID=55010) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:37:30.055+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:37:30.056+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:37:30.055+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:37:30.071+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:37:30.091+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:37:30.091+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:37:30.112+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:37:30.112+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:37:30.137+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.087 seconds
+[2025-09-05T12:38:02.131+0200] {processor.py:153} INFO - Started process (PID=55067) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:02.133+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:38:02.134+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:02.133+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:02.149+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:02.166+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:02.166+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:38:02.184+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:02.183+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:38:02.205+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.077 seconds
+[2025-09-05T12:38:34.306+0200] {processor.py:153} INFO - Started process (PID=55126) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:34.308+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:38:34.309+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:34.309+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:34.329+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:38:34.349+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:34.349+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:38:34.369+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:38:34.369+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:38:34.397+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.096 seconds
+[2025-09-05T12:39:06.442+0200] {processor.py:153} INFO - Started process (PID=55186) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:06.460+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:39:06.464+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:06.464+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:06.634+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:06.765+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:06.765+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:39:06.902+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:06.902+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:39:06.978+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.609 seconds
+[2025-09-05T12:39:39.219+0200] {processor.py:153} INFO - Started process (PID=55241) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:39.222+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:39:39.224+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:39.224+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:39.270+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:39:39.317+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:39.316+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:39:39.348+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:39:39.348+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:39:39.401+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.193 seconds
+[2025-09-05T12:40:11.632+0200] {processor.py:153} INFO - Started process (PID=55282) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:11.634+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:40:11.635+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:11.635+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:11.654+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:11.675+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:11.675+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:40:11.700+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:11.699+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:40:11.735+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.108 seconds
+[2025-09-05T12:40:55.154+0200] {processor.py:153} INFO - Started process (PID=55328) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:55.155+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:40:55.156+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:55.156+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:55.173+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:40:55.192+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:55.192+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:40:55.211+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:40:55.211+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:40:55.237+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.088 seconds
+[2025-09-05T12:41:27.375+0200] {processor.py:153} INFO - Started process (PID=55373) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:27.378+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:41:27.380+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:27.379+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:27.402+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:27.430+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:27.429+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:41:27.456+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:27.456+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:41:27.484+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.116 seconds
+[2025-09-05T12:41:59.775+0200] {processor.py:153} INFO - Started process (PID=55414) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:59.777+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:41:59.777+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:59.777+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:59.795+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:41:59.814+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:59.813+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:41:59.835+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:41:59.835+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:41:59.890+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.119 seconds
+[2025-09-05T12:42:31.008+0200] {processor.py:153} INFO - Started process (PID=55457) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:42:31.009+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:42:31.010+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:42:31.010+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:42:31.026+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:42:31.044+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:42:31.044+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:42:31.062+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:42:31.062+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:42:31.090+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:43:01.879+0200] {processor.py:153} INFO - Started process (PID=55499) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:01.881+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:43:01.881+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:01.881+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:01.901+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:01.922+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:01.921+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:43:01.944+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:01.944+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:43:01.971+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.096 seconds
+[2025-09-05T12:43:33.019+0200] {processor.py:153} INFO - Started process (PID=55537) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:33.021+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:43:33.022+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:33.022+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:33.043+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:43:33.068+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:33.068+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:43:33.103+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:43:33.102+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:43:33.137+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.123 seconds
+[2025-09-05T12:44:04.315+0200] {processor.py:153} INFO - Started process (PID=55575) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:04.317+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:44:04.317+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:04.317+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:04.334+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:04.353+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:04.353+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:44:04.372+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:04.372+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:44:04.396+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.084 seconds
+[2025-09-05T12:44:35.457+0200] {processor.py:153} INFO - Started process (PID=55614) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:35.459+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:44:35.459+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:35.459+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:35.476+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:44:35.494+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:35.494+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:44:35.515+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:44:35.515+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:44:35.539+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:45:06.412+0200] {processor.py:153} INFO - Started process (PID=55654) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:06.414+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:45:06.415+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:06.415+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:06.439+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:06.461+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:06.461+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:45:06.480+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:06.480+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:45:06.502+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.094 seconds
+[2025-09-05T12:45:37.480+0200] {processor.py:153} INFO - Started process (PID=55693) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:37.481+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:45:37.482+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:37.482+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:37.498+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:45:37.515+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:37.515+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:45:37.533+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:45:37.533+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:45:37.555+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.079 seconds
+[2025-09-05T12:46:08.528+0200] {processor.py:153} INFO - Started process (PID=55734) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:08.529+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:46:08.530+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:08.530+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:08.546+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:08.563+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:08.563+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:46:08.581+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:08.581+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:46:08.602+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.078 seconds
+[2025-09-05T12:46:40.759+0200] {processor.py:153} INFO - Started process (PID=55783) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:40.761+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:46:40.761+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:40.761+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:40.779+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:46:40.801+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:40.801+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:46:40.823+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:46:40.822+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:46:40.851+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.096 seconds
+[2025-09-05T12:47:12.032+0200] {processor.py:153} INFO - Started process (PID=55824) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:12.035+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:47:12.036+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:12.035+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:12.065+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:12.093+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:12.093+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:47:12.119+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:12.118+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:47:12.151+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.123 seconds
+[2025-09-05T12:47:43.780+0200] {processor.py:153} INFO - Started process (PID=55867) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:43.782+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:47:43.783+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:43.783+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:43.800+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:47:43.818+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:43.817+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:47:43.836+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:47:43.836+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:47:43.859+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.082 seconds
+[2025-09-05T12:48:15.299+0200] {processor.py:153} INFO - Started process (PID=55915) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:15.301+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:48:15.302+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:15.301+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:15.318+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:15.340+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:15.339+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:48:15.362+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:15.362+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:48:15.387+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.092 seconds
+[2025-09-05T12:48:47.394+0200] {processor.py:153} INFO - Started process (PID=55973) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:47.396+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:48:47.397+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:47.396+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:47.413+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:48:47.432+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:47.432+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:48:47.452+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:48:47.452+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:48:47.477+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:49:19.516+0200] {processor.py:153} INFO - Started process (PID=56027) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:19.517+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:49:19.518+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:19.518+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:19.537+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:19.556+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:19.555+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:49:19.576+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:19.575+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:49:19.601+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.089 seconds
+[2025-09-05T12:49:50.913+0200] {processor.py:153} INFO - Started process (PID=56072) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:50.915+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:49:50.916+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:50.915+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:50.936+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:49:50.958+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:50.958+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:49:50.980+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:49:50.980+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:49:51.010+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.101 seconds
+[2025-09-05T12:50:22.497+0200] {processor.py:153} INFO - Started process (PID=56102) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:22.499+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:50:22.500+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:22.500+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:22.520+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:22.544+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:22.543+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:50:22.567+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:22.566+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:50:22.595+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.103 seconds
+[2025-09-05T12:50:54.063+0200] {processor.py:153} INFO - Started process (PID=56145) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:54.066+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:50:54.066+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:54.066+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:54.092+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:50:54.119+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:54.119+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:50:54.146+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:50:54.146+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:50:54.177+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.119 seconds
+[2025-09-05T12:51:25.575+0200] {processor.py:153} INFO - Started process (PID=56194) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:25.577+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:51:25.578+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:25.578+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:25.595+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:25.615+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:25.614+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:51:25.634+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:25.634+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:51:25.659+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.088 seconds
+[2025-09-05T12:51:56.653+0200] {processor.py:153} INFO - Started process (PID=56257) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:56.654+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:51:56.655+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:56.655+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:56.671+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:51:56.688+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:56.688+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:51:56.706+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:51:56.705+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:51:56.728+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.079 seconds
+[2025-09-05T12:52:28.927+0200] {processor.py:153} INFO - Started process (PID=56325) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:52:28.929+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:52:28.930+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:52:28.930+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:52:28.946+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:52:28.965+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:52:28.964+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:52:28.983+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:52:28.983+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:52:29.009+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.086 seconds
+[2025-09-05T12:53:00.990+0200] {processor.py:153} INFO - Started process (PID=56394) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:00.991+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:53:00.992+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:00.992+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:01.008+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:01.025+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:01.025+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:53:01.043+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:01.043+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:53:01.065+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.079 seconds
+[2025-09-05T12:53:33.221+0200] {processor.py:153} INFO - Started process (PID=56465) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:33.223+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:53:33.223+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:33.223+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:33.240+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:53:33.258+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:33.258+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:53:33.277+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:53:33.277+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:53:33.303+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.085 seconds
+[2025-09-05T12:54:04.766+0200] {processor.py:153} INFO - Started process (PID=56525) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:04.768+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:54:04.769+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:04.769+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:04.785+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:04.803+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:04.802+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:54:04.821+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:04.820+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:54:04.842+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.080 seconds
+[2025-09-05T12:54:36.518+0200] {processor.py:153} INFO - Started process (PID=56570) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:36.520+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:54:36.521+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:36.521+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:36.539+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:54:36.558+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:36.558+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:54:36.582+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:54:36.581+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:54:36.620+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.109 seconds
+[2025-09-05T12:55:08.219+0200] {processor.py:153} INFO - Started process (PID=56627) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:08.221+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:55:08.221+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:08.221+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:08.239+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:08.257+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:08.257+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:55:08.275+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:08.275+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:55:08.298+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.083 seconds
+[2025-09-05T12:55:39.277+0200] {processor.py:153} INFO - Started process (PID=56681) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:39.279+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:55:39.280+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:39.280+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:39.302+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:55:39.331+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:39.331+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:55:39.358+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:55:39.358+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:55:39.455+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.183 seconds
+[2025-09-05T12:56:11.648+0200] {processor.py:153} INFO - Started process (PID=56738) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:11.651+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:56:11.653+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:11.652+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:11.681+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:11.710+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:11.710+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:56:11.743+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:11.743+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:56:11.783+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.141 seconds
+[2025-09-05T12:56:43.140+0200] {processor.py:153} INFO - Started process (PID=56781) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:43.143+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:56:43.145+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:43.145+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:43.193+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:56:43.254+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:43.253+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:56:43.293+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:56:43.293+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:56:43.338+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.206 seconds
+[2025-09-05T12:57:15.182+0200] {processor.py:153} INFO - Started process (PID=56831) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:15.184+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:57:15.185+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:15.184+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:15.202+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:15.220+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:15.220+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:57:15.240+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:15.240+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:57:15.270+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.092 seconds
+[2025-09-05T12:57:47.072+0200] {processor.py:153} INFO - Started process (PID=56891) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:47.074+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:57:47.075+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:47.075+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:47.097+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:57:47.120+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:47.120+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:57:47.170+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:57:47.169+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:57:47.233+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.167 seconds
+[2025-09-05T12:58:18.662+0200] {processor.py:153} INFO - Started process (PID=56946) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:18.664+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:58:18.665+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:18.665+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:18.681+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:18.702+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:18.702+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:58:18.723+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:18.723+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:58:18.750+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.091 seconds
+[2025-09-05T12:58:50.426+0200] {processor.py:153} INFO - Started process (PID=56988) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:50.427+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:58:50.428+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:50.428+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:50.445+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:58:50.463+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:50.463+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:58:50.481+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:58:50.481+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:58:50.502+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.080 seconds
+[2025-09-05T12:59:22.125+0200] {processor.py:153} INFO - Started process (PID=57044) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:22.132+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:59:22.133+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:22.132+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:22.157+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:22.181+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:22.181+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:59:22.202+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:22.202+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:59:22.228+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.117 seconds
+[2025-09-05T12:59:52.855+0200] {processor.py:153} INFO - Started process (PID=57098) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:52.856+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T12:59:52.857+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:52.857+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:52.877+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T12:59:52.894+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:52.894+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T12:59:52.913+0200] {logging_mixin.py:137} INFO - [2025-09-05T12:59:52.913+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T12:59:52.936+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.085 seconds
+[2025-09-05T13:00:24.172+0200] {processor.py:153} INFO - Started process (PID=57160) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:24.173+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:00:24.174+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:24.174+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:24.191+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:24.209+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:24.209+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:00:24.230+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:24.230+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:00:24.257+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.090 seconds
+[2025-09-05T13:00:55.523+0200] {processor.py:153} INFO - Started process (PID=57201) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:55.526+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:00:55.528+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:55.528+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:55.549+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:00:55.573+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:55.573+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:00:55.600+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:00:55.600+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:00:55.633+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.116 seconds
+[2025-09-05T13:01:27.089+0200] {processor.py:153} INFO - Started process (PID=57248) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:01:27.091+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:01:27.093+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:01:27.092+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:01:27.117+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:01:27.148+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:01:27.148+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:01:27.178+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:01:27.178+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:01:27.212+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.128 seconds
+[2025-09-05T13:02:04.596+0200] {processor.py:153} INFO - Started process (PID=57286) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:04.598+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:02:04.599+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:04.599+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:04.620+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:04.660+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:04.659+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:02:04.687+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:04.686+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:02:04.715+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.125 seconds
+[2025-09-05T13:02:37.104+0200] {processor.py:153} INFO - Started process (PID=57326) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:37.108+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:02:37.109+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:37.109+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:37.136+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:02:37.164+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:37.164+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:02:37.197+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:02:37.197+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:02:37.236+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.136 seconds
+[2025-09-05T13:03:09.603+0200] {processor.py:153} INFO - Started process (PID=57363) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:09.605+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:03:09.606+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:09.606+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:09.622+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:09.640+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:09.640+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:03:09.661+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:09.661+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:03:09.691+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.091 seconds
+[2025-09-05T13:03:42.160+0200] {processor.py:153} INFO - Started process (PID=57402) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:42.162+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:03:42.163+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:42.163+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:42.185+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:03:42.203+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:42.203+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:03:42.223+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:03:42.222+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:03:42.269+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.113 seconds
+[2025-09-05T13:04:13.849+0200] {processor.py:153} INFO - Started process (PID=57455) to work on /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:04:13.850+0200] {processor.py:743} INFO - Processing file /home/varun/airflow/dags/first_dag.py for tasks to queue
+[2025-09-05T13:04:13.852+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:04:13.852+0200] {dagbag.py:532} INFO - Filling up the DagBag from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:04:13.874+0200] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/varun/airflow/dags/first_dag.py
+[2025-09-05T13:04:13.899+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:04:13.898+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-09-05T13:04:13.926+0200] {logging_mixin.py:137} INFO - [2025-09-05T13:04:13.926+0200] {dag.py:3452} INFO - Setting next_dagrun for hello_world to 2025-09-05T00:00:00+00:00, run_after=2025-09-06T00:00:00+00:00
+[2025-09-05T13:04:13.953+0200] {processor.py:175} INFO - Processing /home/varun/airflow/dags/first_dag.py took 0.109 seconds

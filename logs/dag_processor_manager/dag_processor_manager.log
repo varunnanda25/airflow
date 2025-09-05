@@ -17677,3 +17677,338 @@ File Path                                           PID    Runtime      # DAGs  
 /home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:04:13
 /home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:03:42
 ================================================================================
+[2025-09-05T13:04:44.780+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.12s           2025-09-05T11:04:44
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:04:14
+================================================================================
+[2025-09-05T13:05:15.707+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:05:15
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:04:45
+================================================================================
+[2025-09-05T13:05:46.817+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:05:46
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:05:16
+================================================================================
+[2025-09-05T13:06:10.346+0200] {manager.py:736} INFO - Searching for files in /home/varun/airflow/dags
+[2025-09-05T13:06:10.348+0200] {manager.py:739} INFO - There are 2 files in /home/varun/airflow/dags
+[2025-09-05T13:06:17.676+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:06:17
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:05:47
+================================================================================
+[2025-09-05T13:06:48.400+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:06:48
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:06:18
+================================================================================
+[2025-09-05T13:07:19.139+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:07:19
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:06:48
+================================================================================
+[2025-09-05T13:07:49.348+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:07:49
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:07:19
+================================================================================
+[2025-09-05T13:08:19.945+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:08:19
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:07:50
+================================================================================
+[2025-09-05T13:08:50.370+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:08:50
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:08:21
+================================================================================
+[2025-09-05T13:09:20.700+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:09:20
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:08:52
+================================================================================
+[2025-09-05T13:09:50.716+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:09:50
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:09:24
+================================================================================
+[2025-09-05T13:10:21.462+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:10:21
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:09:56
+================================================================================
+[2025-09-05T13:10:51.470+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:10:51
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:10:29
+================================================================================
+[2025-09-05T13:11:10.994+0200] {manager.py:736} INFO - Searching for files in /home/varun/airflow/dags
+[2025-09-05T13:11:10.996+0200] {manager.py:739} INFO - There are 2 files in /home/varun/airflow/dags
+[2025-09-05T13:11:22.113+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:11:22
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:11:01
+================================================================================
+[2025-09-05T13:11:52.389+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:11:52
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:11:32
+================================================================================
+[2025-09-05T13:12:23.084+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:12:23
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.11s           2025-09-05T11:12:04
+================================================================================
+[2025-09-05T13:12:53.404+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:12:53
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:12:36
+================================================================================
+[2025-09-05T13:13:24.215+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:13:24
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:13:08
+================================================================================
+[2025-09-05T13:13:54.697+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:13:54
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:13:40
+================================================================================
+[2025-09-05T13:14:25.472+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.11s           2025-09-05T11:14:25
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:14:12
+================================================================================
+[2025-09-05T13:14:55.866+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:14:55
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:14:43
+================================================================================
+[2025-09-05T13:15:26.630+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:15:26
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:15:15
+================================================================================
+[2025-09-05T13:15:57.133+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                           1           0  0.21s           2025-09-05T11:15:57
+/home/varun/airflow/dags/first_dag.py                                        1           0  0.21s           2025-09-05T11:15:47
+================================================================================
+[2025-09-05T13:16:11.276+0200] {manager.py:736} INFO - Searching for files in /home/varun/airflow/dags
+[2025-09-05T13:16:11.278+0200] {manager.py:739} INFO - There are 3 files in /home/varun/airflow/dags
+[2025-09-05T13:16:27.199+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.21s           2025-09-05T11:16:25
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.21s           2025-09-05T11:16:19
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.21s           2025-09-05T11:16:27
+================================================================================
+[2025-09-05T13:16:57.229+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:16:55
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.21s           2025-09-05T11:16:52
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.21s           2025-09-05T11:16:57
+================================================================================
+[2025-09-05T13:17:27.301+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.21s           2025-09-05T11:17:24
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.21s           2025-09-05T11:17:26
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.21s           2025-09-05T11:17:27
+================================================================================
+[2025-09-05T13:17:58.317+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.21s           2025-09-05T11:17:57
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.21s           2025-09-05T11:17:26
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.21s           2025-09-05T11:17:58
+================================================================================
+[2025-09-05T13:18:28.888+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:18:27
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.21s           2025-09-05T11:17:59
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:18:28
+================================================================================
+[2025-09-05T13:18:58.898+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-09-05T11:18:57
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:18:32
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:18:58
+================================================================================
+[2025-09-05T13:19:29.465+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:19:28
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:19:05
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:19:29
+================================================================================
+[2025-09-05T13:19:59.490+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:19:58
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:19:40
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:19:59
+================================================================================
+[2025-09-05T13:20:29.783+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-09-05T11:20:29
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:20:12
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:20:29
+================================================================================
+[2025-09-05T13:21:00.172+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:21:00
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:20:44
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:20:59
+================================================================================
+[2025-09-05T13:21:11.486+0200] {manager.py:736} INFO - Searching for files in /home/varun/airflow/dags
+[2025-09-05T13:21:11.489+0200] {manager.py:739} INFO - There are 3 files in /home/varun/airflow/dags
+[2025-09-05T13:21:30.452+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:21:30
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:21:16
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.11s           2025-09-05T11:21:30
+================================================================================
+[2025-09-05T13:22:00.902+0200] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/varun/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-09-05T11:22:00
+/home/varun/airflow/dags/first_dag.py                                          1           0  0.11s           2025-09-05T11:21:50
+/home/varun/airflow/dags/execute_python_operators.py                           1           0  0.21s           2025-09-05T11:21:59
+================================================================================
